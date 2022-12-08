@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Hamburgueria do Bob</title>
+</head>
+<body>
+    <div id="cardapio_total" class="borda-preta">
+        <div class="laranja">
+<!-- ==================== TELA INICIAL ===================================== -->
+            <div id="passo1" style="display: block;">
+                <div class="titulo">
+                    <div>
+                        <img src="assets\img\logo.png" alt="">
+                    </div>
+                    <div class="logo-meio">
+                        <span class="logo-letra">Bob<br>Lanches e<br> petiscos</span>
+                    </div>
+                    <div>
+                        <img src="assets\img\logo-invertida.png" alt="">
+                    </div>
+                </div>
+
+                <div class='alinha-pretamento-input'>
+                    <div class="centro">
+                        <span class='titulo-collapse'>Tipo de pão</span>
+                    </div>
+                    <div class="botao-collapse">
+                        <span style="color: #000">
+                          <a id="opcao_pao" class="selecionar-opcao" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span id="txt_pao">Selecione uma opção</span>
+                            <span id="valor_pao"></span>
+                            <img src="assets/img/arrow.svg" alt="">
+                          </a>
+                        </span>
+                        <div class="collapse" id="collapseExample">
+                          <div class="">
+                            <div class="linha-preta pao">
+                                <span class="nome_pao">Branco comum</span>
+                                <span class="valor_pao">R$5,00 </span>
+                            </div>
+                            <div class="linha-preta pao">
+                                <span class="nome_pao">Branco italiano</span>
+                                <span class="valor_pao">R$5,00</span>
+                            </div>
+                            <div class="linha-preta pao">
+                                <span class="nome_pao">Integral Nove grãos</span>
+                                <span class="valor_pao">R$5,00</span>
+                            </div>
+                            <div class="linha-preta pao" style='border: none'>
+                                <span class="nome_pao">3 queijos</span>
+                                <span class="valor_pao">R$5,00 </span>
+                            </div>
+                          </div>
+                        </div> 
+                    </div>
+                    <!--================================================================-->
+                    <div class="centro" style='margin-top: 30px;'>
+                        <span class='titulo-collapse'>Hambúguer</span>
+                    </div>
+                    <div class="botao-collapse">
+                        <span style="color: #000">
+                          <a id="opcao_hamburguer" class="selecionar-opcao" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span id="txt_hamburguer">Selecione uma opção</span>
+                            <span id="valor_hamburguer"></span>
+                            <img src="assets/img/arrow.svg" alt="">
+                          </a>
+                        </span>
+                        <div class="collapse" id="collapseExample2">
+                          <div class="">
+                            <div class="linha-preta hamburguer">
+                                <span class="nome_hamburguer">Hamb/ de Cordeiro</span>
+                                <span class="valor_hamburguer">R$5,00</span>
+                            </div>
+                            <div class="linha-preta hamburguer">
+                                <span class="nome_hamburguer">Hamb/ de Frango</span>
+                                <span class="valor_hamburguer">R$5,00</span>
+                            </div>
+                            <div class="linha-preta hamburguer">
+                                <span class="nome_hamburguer">Hamb/ de Costela</span>
+                                <span class="valor_hamburguer">R$5,00</span>
+                            </div>
+                            <div class="linha-preta hamburguer" style='border: none'>
+                                <span class="nome_hamburguer">Hamb/ Vegano</span>
+                                <span class="valor_hamburguer">R$5,00</span>
+                            </div>
+                          </div>
+                        </div> 
+                    </div>
+                    <!--================================================================-->
+                    <div class="centro" style='margin-top: 30px;'>
+                        <span class='titulo-collapse'>Saladas</span>
+                    </div>
+                    <div class="botao-collapse">
+                        <span style="color: #000">
+                          <a id="opcao_salada" class="selecionar-opcao" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <span id="txt_salada">Selecione uma opção</span>
+                            <span id="valor_salada"></span>
+                            <img src="assets/img/arrow.svg" alt="">
+                          </a>
+                        </span>
+                        <div class="collapse" id="collapseExample3">
+                          <div class="">
+                            <div class="linha-preta salada">
+                                <span class="nome_salada"> Nenhuma</span>
+                                <span class="valor_salada">R$0,00</span>
+                            </div>
+                            <div class="linha-preta salada">
+                                <span class="nome_salada">Alface</span>
+                                <span class="valor_salada">R$5,00</span>
+                            </div>
+                            <div class="linha-preta salada">
+                                <span class="nome_salada">Tomate</span>
+                                <span class="valor_salada">R$5,00</span>
+                            </div>
+                            <div class="linha-preta salada">
+                                <span class="nome_salada">Cebola</span>
+                                <span class="valor_salada">R$5,00</span>
+                            </div>
+                            <div class="linha-preta salada" style='border: none'>
+                                <span class="nome_salada">Pepino</span>
+                                <span class="valor_salada">R$5,00</span>
+                            </div>
+                          </div>
+                        </div> 
+                    </div>
+                    <div class="botao-cont">
+                        <button id="btn_passo1" type="button" style="color:#fff!important; padding: 10px 20px; font-family: acme; border: none; background-color: transparent;">Continuar</button>
+                    </div>
+                </div>
+            </div>
+
+<!--============================== TELA BEBIDAS ======================================== -->
+
+            <div id="passo2" style="display: none;">
+                <div class="titulo">
+                    <div>
+                        <img src="assets\img\logo.png" alt="">
+                    </div>
+                    <div class="logo-meio">
+                        <span class="logo-letra2">Bob Lanches e<br> petiscos</span>
+                    </div>
+                    <div>
+                        <img src="assets\img\logo-invertida.png" alt="">
+                    </div>
+                </div>
+                <div class="mesa-comanda">
+                    <span class="text-mesa">Mesa: 10</span>
+                    <span class="text-mesa">Comanda: 01</span>
+                </div>
+                <div class="linha" style='padding: 5%;'>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <span class="bebidas">BEBIDAS</span>
+                    </div>
+                    <div class="botao-pular col-md-3">
+                        <a style="color:#fff!important; padding: 10px 20px; font-family: acme" href="">Pular</a>
+                    </div>
+                </div>
+                <!--============ REFRIGERANTE ==============-->
+                <div>
+                    <div>
+                        <span class="refri-titulo">Refrigerante de lata (350ml):</span>
+                    </div>
+                    <div class="coluna alinhamento-itens">
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Coca-cola</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 4,50</span>
+                                </div>
+                                <div class="linha bebida1">   
+                                    <img class="adicionar" data-bebida="1" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="1" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Pepsi</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 4,50</span>
+                                </div>
+                                <div class="linha bebida2">   
+                                    <img class="adicionar" data-bebida="2" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="2" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Guaraná</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 4,50</span>
+                                </div>
+                                <div class="linha bebida3">   
+                                    <img class="adicionar" data-bebida="3" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="3" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Sprite</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 4,50</span>
+                                </div>
+                                <div class="linha bebida4">   
+                                    <img class="adicionar" data-bebida="4" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="4" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Fanta Uva</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 4,50</span>
+                                </div>
+                                <div class="linha bebida5">   
+                                    <img class="adicionar" data-bebida="5" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="5" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Fanta Laranja</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 4,50</span>
+                                </div>
+                                <div class="linha bebida6">   
+                                    <img class="adicionar" data-bebida="6" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="6" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!--============ CERVEJAS ==============-->
+
+                <div style="margin-top: 20px">
+                    <div>
+                        <span class="refri-titulo">Cervejas lata:</span>
+                    </div>
+                    <div class="coluna alinhamento-itens">
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Skol</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 6,00</span>
+                                </div>
+                                <div class="linha bebida7">   
+                                    <img class="adicionar" data-bebida="7" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="7" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Skin</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 6,00</span>
+                                </div>
+                                <div class="linha bebida8">   
+                                    <img class="adicionar" data-bebida="8" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="8" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Brahma</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 6,00</span>
+                                </div>
+                                <div class="linha bebida9">   
+                                    <img class="adicionar" data-bebida="9" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="9" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Antarctica</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 6,00</span>
+                                </div>
+                                <div class="linha bebida10">   
+                                    <img class="adicionar" data-bebida="10" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="10" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Sol</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 6,00</span>
+                                </div>
+                                <div class="linha bebida11">   
+                                    <img class="adicionar" data-bebida="11" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="11" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Colorado</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span>R$ 6,00</span>
+                                </div class="preco_bebida">
+                                <div class="linha bebida12">   
+                                    <img class="adicionar" data-bebida="12" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="12" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--============ SUCOS ==============-->
+
+                <div style="margin-top: 20px; margin-bottom: 20px;">
+                    <div>
+                        <span class="refri-titulo">Sucos Naturais:</span>
+                    </div>
+                    <div class="coluna alinhamento-itens">
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Laranja</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 5,00</span>
+                                </div>
+                                <div class="linha bebida13">   
+                                    <img class="adicionar" data-bebida="13" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="13" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Morango</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 5,00</span>
+                                </div>
+                                <div class="linha bebida14">   
+                                    <img class="adicionar" data-bebida="14" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="14" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Abacaxi</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 5,00</span>
+                                </div>
+                                <div class="linha bebida15">   
+                                    <img class="adicionar" data-bebida="15" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="15" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Abacaxi com hortelã</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 5,00</span>
+                                </div>
+                                <div class="linha bebida16">   
+                                    <img class="adicionar" data-bebida="16" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="16" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Acerola</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 5,00</span>
+                                </div>
+                                <div class="linha bebida17">   
+                                    <img class="adicionar" data-bebida="17" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="17" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Uva</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 5,00</span>
+                                </div>
+                                <div class="linha bebida18">   
+                                    <img class="adicionar" data-bebida="18" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="18" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="linha div_bebida">
+                            <div class="item-select">
+                                <span class="nome_bebida">Melancia</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_bebida">R$ 5,00</span>
+                                </div>
+                                <div class="linha bebida19">   
+                                    <img class="adicionar" data-bebida="19" src="assets\img\plus.svg" alt="">
+                                    <span class="qtde" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar" data-bebida="19" src="assets\img\dash.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex; justify-content: center">
+                        <div class="botao-cont" style="margin: 10% 0 0 0">
+                            <button id="btn_passo2" type="button" style="color:#fff!important; padding: 10px 20px; font-family: acme; border: none; background-color: transparent;">Continuar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--============================== TELA PETISCOS START ======================================== -->
+
+            <div id="passo3" style="display: none;">
+                <div class="titulo">
+                    <div>
+                        <img src="assets\img\logo.png" alt="">
+                    </div>
+                    <div class="logo-meio">
+                        <span class="logo-letra2">Bob Lanches e<br> petiscos</span>
+                    </div>
+                    <div>
+                        <img src="assets\img\logo-invertida.png" alt="">
+                    </div>
+                </div>
+                <div class="mesa-comanda">
+                    <span class="text-mesa">Mesa: 10</span>
+                    <span class="text-mesa">Comanda: 01</span>
+                </div>
+                <div class="linha" style='padding: 5%;'>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <span class="bebidas">PETISCOS</span>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <!--============ REFRIGERANTE ==============-->
+                <div class="div_petisco">
+                    <div>
+                        <span class="refri-titulo"><span class="nome_petisco">Batata frita(500g)</span><span class="preco_petisco">R$15,00</span>:</span>
+                        <div class="linha prato1">   
+                            <img class="adicionar3" src="assets\img\plus.svg" data-prato="1" alt="">
+                            <span class="qtde3" style="padding-left: 5px; padding-right: 5px">0</span>
+                            <img class="retirar3" src="assets\img\dash.svg" data-prato="1" alt="">
+                        </div>
+                    </div>
+                    <div class="coluna alinhamento-itens">
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Bacon</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 4,50</span>
+                                </div>
+                                <div class="linha petisco1">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="1" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="1" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Calabresa</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 4,50</span>
+                                </div>
+                                <div class="linha petisco2">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="2" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Queijo</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 4,50</span>
+                                </div>
+                                <div class="linha petisco3">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="3" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="3" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Cheddar</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 4,50</span>
+                                </div>
+                                <div class="linha petisco4">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="4" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="4" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--============ POLENTAS ==============-->
+
+                <div class="div_petisco" style="margin-top: 20px">
+                    <div>
+                        <span class="refri-titulo"><span class="nome_petisco">Polenta frita(500g)</span> <span class="preco_petisco">R$15,00</span>:</span>
+                        <div class="linha prato2">   
+                            <img class="adicionar3" src="assets\img\plus.svg" data-prato="2" alt="">
+                            <span class="qtde3" style="padding-left: 5px; padding-right: 5px">0</span>
+                            <img class="retirar3" src="assets\img\dash.svg" data-prato="2" alt="">
+                        </div>
+                    </div>
+                    <div class="coluna alinhamento-itens">
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Queijo</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 6,00</span>
+                                </div>
+                                <div class="linha petisco5">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="5" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="5" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Frango</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 10,00</span>
+                                </div>
+                                <div class="linha petisco6">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="6" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="6" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Salada</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 5,00</span>
+                                </div>
+                                <div class="linha petisco7">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="7" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="7" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Batata frita</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 8,00</span>
+                                </div>
+                                <div class="linha petisco8">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="8" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="8" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="div_petisco" style="margin-top: 20px; margin-bottom: 20px;">
+                    <div>
+                        <span class="refri-titulo" style="padding-right: 0px;"><span class="nome_petisco">Alcatra</span> (450g) <span class="preco_petisco">R$15,00</span>:</span>
+                        <div class="linha prato3">   
+                            <img class="adicionar3" src="assets\img\plus.svg" data-prato="3" alt="">
+                            <span class="qtde3" style="padding-left: 5px; padding-right: 5px">0</span>
+                            <img class="retirar3" src="assets\img\dash.svg" data-prato="3" alt="">
+                        </div>
+                    </div>
+                    <div class="coluna alinhamento-itens">
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Limão</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 5,00</span>
+                                </div>
+                                <div class="linha petisco9">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="9" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="9" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Cebola</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 5,00</span>
+                                </div>
+                                <div class="linha petisco10">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="10" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="10" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Salada</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 5,00</span>
+                                </div>
+                                <div class="linha petisco11">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="11" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="11" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div_adicional linha">
+                            <div class="item-select">
+                                <span class="nome_adicional">Legumes</span>
+                            </div>
+                            <div class="linha select">
+                                <div>
+                                    <span class="preco_adicional">R$ 5,00</span>
+                                </div>
+                                <div class="linha petisco12">   
+                                    <img class="adicionar2" src="assets\img\plus.svg" data-petisco="12" alt="">
+                                    <span class="qtde2" style="padding-left: 5px; padding-right: 5px">0</span>
+                                    <img class="retirar2" src="assets\img\dash.svg" data-petisco="12" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 100%; display: flex; justify-content: center">
+                    <div class="botao-cont" style='margin-top: 30px; margin-bottom: 20px; width: fit-content; text-align: center;'>
+                        <button id="btn_passo3" type="button" style="color:#fff!important; padding: 10px 20px; font-family: acme; border: none; background-color: transparent;">Terminar</button>
+                    </div>
+                </div>
+
+            </div>
+
+    <!--============================== TELA RESUMO START ======================================== -->
+
+
+            <div id="passo4" style="display: none;">
+                <div class="titulo">
+                    <div>
+                        <img src="assets\img\logo.png" alt="">
+                    </div>
+                    <div class="logo-meio">
+                        <span class="logo-letra2">Bob Lanches e<br> petiscos</span>
+                    </div>
+                    <div>
+                        <img src="assets\img\logo-invertida.png" alt="">
+                    </div>
+                </div>
+                <div class="mesa-comanda">
+                    <span class="text-mesa">Mesa: 10</span>
+                    <span class="text-mesa">Comanda: 01</span>
+                </div>
+                <div class="linha" style='padding: 5%;'>
+                    <div class="col-md-12" style="text-align: center;">
+                        <span class="bebidas">RESUMO DO PEDIDO</span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <span class="refri-titulo">Hamburger</span>
+                    </div>
+                    <div class="coluna pedido-text">
+                        <span >Pão <span id="pao_escolhido"></span> <span id="preco_pao_escolhido" class="preco_total_hamburguer"></span></span>
+                        <span><span id="hamburguer_escolhido"></span> <span id="preco_hamburguer_escolhido" class="preco_total_hamburguer"></span></span>
+                        <span>Salada: <span id="salada_escolhido"></span>  <span id="preco_salada_escolhido" class="preco_total_hamburguer"></span></span>
+                    </div>
+                </div>
+
+                <div id="div_todas_bebidas" style="margin-top: 20px">
+                    <div>
+                        <span class="refri-titulo">Bebidas</span>
+                    </div>
+                    <div id="todas_bebidas" class="coluna pedido-text">
+                    </div>
+                </div>
+
+                <div id="div_todos_petiscos" style="margin-top: 20px">
+                    <div>
+                        <span class="refri-titulo">Petiscos</span>
+                    </div>
+                    <div id="todos_petiscos" class="coluna pedido-text">
+                    </div>
+                </div>
+
+                <div style="width: 100%; text-align: center; margin-top: 20px;">
+                    <span style="font-size: 24px; font-family: hans; color: #000">Total: <span id="total_conta">0</span></span>
+                </div>
+                <div style="width: 100%; display: flex; justify-content: center">
+                    <div class="botao-cont" style='margin-top: 30px; margin-bottom: 20px; width: fit-content; text-align: center;'>
+                        <button id="btn_passo4" type="button" style="color:#fff!important; padding: 10px 20px; font-family: acme; border: none; background-color: transparent;">Terminar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="passo5" class="borda-preta" style="display: none;">
+        <div class="laranja">
+            <div class="coluna">
+                <div class="linha">
+                    <div class="quad-cinza">
+                        <span>N° mesa</span>
+                    </div>
+                    <div class="ret-laranja">
+                        <span>10</span>
+                    </div> 
+                </div>
+                <div class="linha">
+                    <div class="quad-cinza">
+                        <span>Pedido</span>
+                    </div>
+                    <div class="ret-laranja">
+                        <span class="resumo_hamburguer">Pão <span id="pao_escolhido2"></span>, <span id="hamburguer_escolhido2"></span>, <span id="salada_escolhido2"></span></span>
+                    </div> 
+                </div>
+                <div class="linha">
+                    <div class="quad-cinza">
+                        <span>Bebidas</span>
+                    </div>
+                    <div class="ret-laranja">
+                        <span id="final_bebidas"></span>
+                    </div> 
+                </div>
+                <div class="linha">
+                    <div class="quad-cinza">
+                        <span>Petiscos</span>
+                    </div>
+                    <div class="ret-laranja">
+                        <span id="final_petiscos"></span>
+                    </div> 
+                </div>
+                <div class="linha">
+                    <div class="quad-cinza">
+                        <span>Horário</span>
+                    </div>
+                    <div class="ret-laranja">
+                        <span>20:32</span>
+                    </div> 
+                </div>
+                <div class="linha">
+                    <div class="quad-cinza">
+                        <span>Cod. do pedido</span>
+                    </div>
+                    <div class="ret-laranja">
+                        <input type="text" class='input-cod' placeholder="digite o númedo do pedido...">
+                    </div> 
+                </div>
+            </div>
+            <div class="cardapio">
+                <button id="btn_passo5" type="button" style="color:#000!important; padding: 10px 20px; font-family: acme; border: none; background-color: transparent;">Ver cardápio</button>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        pao_preenchido = "nao";
+        hamburguer_preenchido = "nao";
+        salada_preenchido = "nao";
+        $(".pao").click(function (e) { 
+            $("#txt_pao, #pao_escolhido, #pao_escolhido2").text($(this).find(".nome_pao").text());
+            $("#opcao_pao").click();
+            $("#valor_pao, #preco_pao_escolhido").text(" "+$(this).find(".valor_pao").text());
+
+            pao_preenchido = "sim";
+        });
+        $(".hamburguer").click(function (e) { 
+            $("#txt_hamburguer, #hamburguer_escolhido, #hamburguer_escolhido2").text($(this).find(".nome_hamburguer").text());
+            $("#opcao_hamburguer").click();
+            $("#valor_hamburguer, #preco_hamburguer_escolhido").text(" "+$(this).find(".valor_hamburguer").text());
+            hamburguer_preenchido = "sim";
+        });
+        $(".salada").click(function (e) { 
+            $("#txt_salada, #salada_escolhido, #salada_escolhido2").text($(this).find(".nome_salada").text());
+            $("#opcao_salada").click();
+            $("#valor_salada, #preco_salada_escolhido").text(" "+$(this).find(".valor_salada").text());
+            salada_preenchido = "sim";
+        });
+        $("#btn_passo1").click(function (e) { 
+            if(pao_preenchido == "nao" && hamburguer_preenchido == "nao" && salada_preenchido == "nao"){
+                alert("Você deve selecionar o pão, o hambúrguer e a salada");
+            }else if(pao_preenchido == "sim" && hamburguer_preenchido == "nao" && salada_preenchido == "nao"){
+                alert("Você deve selecionar o hambúrguer e a salada");
+            }else if(pao_preenchido == "nao" && hamburguer_preenchido == "sim" && salada_preenchido == "nao"){
+                alert("Você deve selecionar o pão e a salada");
+            }else if(pao_preenchido == "nao" && hamburguer_preenchido == "nao" && salada_preenchido == "sim"){
+                alert("Você deve selecionar o pão e o hambúrguer");
+            }else if(pao_preenchido == "sim" && hamburguer_preenchido == "sim" && salada_preenchido == "nao"){
+                alert("Você deve selecionar a salada");
+            }else if(pao_preenchido == "sim" && hamburguer_preenchido == "nao" && salada_preenchido == "sim"){
+                alert("Você deve selecionar o hambúrguer");
+            }else if(pao_preenchido == "sim" && hamburguer_preenchido == "nao" && salada_preenchido == "sim"){
+                alert("Você deve selecionar o pão");
+            }else{
+                $("#passo1").hide();
+                $("#passo2").show();
+            }
+        });
+        $(".adicionar").click(function (e) {
+            var num_bebida = $(this).attr("data-bebida");
+            var qtde = parseFloat($(".bebida" + num_bebida).find(".qtde").text());
+            var nova_quantidade = qtde+1;
+            $(".bebida" + num_bebida).find(".qtde").text(nova_quantidade);
+        });
+        $(".retirar").click(function (e) {
+            var num_bebida = $(this).attr("data-bebida");
+            var qtde = parseFloat($(".bebida" + num_bebida).find(".qtde").text());
+            if(qtde > 0){
+                var nova_quantidade = qtde-1;
+                $(".bebida" + num_bebida).find(".qtde").text(nova_quantidade);
+            }
+        });
+        $("#btn_passo2").click(function (e) {
+            $("#todas_bebidas").empty();
+            var qtde_bebidas = 0;
+            $(".div_bebida").each(function (index, element) {
+                var qtde = parseFloat($(this).find(".qtde").text());
+                var nome = $(this).find(".nome_bebida").text();
+                var preco = $(this).find(".preco_bebida").text();
+                var preco2 = parseFloat($(this).find(".preco_bebida").text().replace("R$", "").replace(",", "."));
+                var total_preco = qtde * preco2;
+                if(qtde > 0){
+                    $("#todas_bebidas").append("<span class='preco_total_bebida' data-preco='"+ total_preco + "'>"+nome+ " " + preco + " x"+ qtde +"</span>");
+                    $("#final_bebidas").append("<span style='margin-right: 5px;'>"+nome+ " " + "x"+ qtde +"</span>");
+                    qtde_bebidas++;
+                }
+            });
+            if(qtde_bebidas == 0){
+                $("#div_todas_bebidas").hide();
+            }
+            $("#passo2").hide();
+            $("#passo3").show();
+        });
+        $(".adicionar2").click(function (e) {
+            var num_petisco = $(this).attr("data-petisco");
+            var qtde = parseFloat($(".petisco" + num_petisco).find(".qtde2").text());
+            var nova_quantidade = qtde+1;
+            $(".petisco" + num_petisco).find(".qtde2").text(nova_quantidade);
+        });
+        $(".retirar2").click(function (e) {
+            var num_petisco = $(this).attr("data-petisco");
+            var qtde = parseFloat($(".petisco" + num_petisco).find(".qtde2").text());
+            if(qtde > 0){
+                var nova_quantidade = qtde-1;
+                $(".petisco" + num_petisco).find(".qtde2").text(nova_quantidade);
+            }
+        });
+        $(".adicionar3").click(function (e) {
+            var num_prato = $(this).attr("data-prato");
+            var qtde = parseFloat($(".prato" + num_prato).find(".qtde3").text());
+            var nova_quantidade = qtde+1;
+            $(".prato" + num_prato).find(".qtde3").text(nova_quantidade);
+        });
+        $(".retirar3").click(function (e) {
+            var num_prato = $(this).attr("data-prato");
+            var qtde = parseFloat($(".prato" + num_prato).find(".qtde3").text());
+            if(qtde > 0){
+                var nova_quantidade = qtde-1;
+                $(".prato" + num_prato).find(".qtde3").text(nova_quantidade);
+            }
+        });
+        $("#btn_passo3").click(function (e) {
+            $("#todos_petiscos").empty();
+            var qtde_petiscos = 0;
+            $(".div_petisco").each(function (index, element) {
+                vinculacao = index;
+                var qtde = parseFloat($(this).find(".qtde3").text());
+                var nome = $(this).find(".nome_petisco").text();
+                var preco = $(this).find(".preco_petisco").text();
+                var preco2 = parseFloat($(this).find(".preco_petisco").text().replace("R$", "").replace(",", "."));
+                if(qtde > 0){
+                    $("#todos_petiscos").append("<span>"+nome+ " <span class='preco_total_petisco preco_final_petisco" + index + "'>" + preco + "</span> x"+ qtde +"<span> Adicionais: <span class='insert_adicionais" + index + "'><span></span></span><br>");
+                    $("#final_petiscos").append("<span style='margin-right: 5px;'>"+nome+ " x"+ qtde +"<span> Adicionais: <span class='insert_adicionais2" + index + "'><span></span></span>");
+                    qtde_petiscos++;
+                }
+                $(".preco_final_petisco" + vinculacao).attr("data-preco", (preco2*qtde));
+                ($(this).find(".div_adicional")).each(function (index, element) {
+                    var qtde_adicional = parseFloat($(this).find(".qtde2").text());
+                    var nome_adicional = $(this).find(".nome_adicional").text();
+                    var preco_adicional = $(this).find(".preco_adicional").text();
+                    var preco_adicional2 = parseFloat($(this).find(".preco_adicional").text().replace("R$", "").replace(",", "."));
+                    if(qtde_adicional > 0){
+                        $(".insert_adicionais"+ vinculacao).append("<span>"+nome_adicional+ " " + preco_adicional + " (x"+ qtde_adicional +") </span>");
+                        $(".insert_adicionais2"+ vinculacao).append("<span>"+nome_adicional+ " (x"+ qtde_adicional +") </span>");
+                        preco2 = parseFloat($(".preco_final_petisco"+ vinculacao).text().replace("R$", "").replace(",", "."));
+                        preco_total = preco2 + (qtde_adicional * preco_adicional2);
+                        $(".preco_final_petisco" + vinculacao).attr("data-preco", (preco_total*qtde));
+                        $(".preco_final_petisco" + vinculacao).text("R$"+ (preco_total.toFixed(2).replace(".", ",")));
+                    }
+                });
+            });
+            if(qtde_petiscos == 0){
+                $("#div_todos_petiscos").hide();
+            }
+            $(".preco_total_hamburguer").each(function (index, element) {
+                var conta_atual = parseFloat($("#total_conta").text().replace("R$", "").replace(",", "."))
+                var este_preco = parseFloat($(this).text().replace("R$", "").replace(",", "."));
+                var nova_conta = parseFloat(conta_atual + este_preco).toFixed(2).replace(".", ",");
+                $("#total_conta").text("R$"+ nova_conta);
+            });
+            $(".preco_total_bebida").each(function (index, element) {
+                $(this).attr("data-preco");
+                var conta_atual = parseFloat($("#total_conta").text().replace("R$", "").replace(",", "."))
+                var este_preco = parseFloat($(this).attr("data-preco"));
+                var nova_conta = parseFloat(conta_atual + este_preco).toFixed(2).replace(".", ",");
+                $("#total_conta").text("R$"+ nova_conta);
+            });
+            $(".preco_total_petisco").each(function (index, element) {
+                var conta_atual = parseFloat($("#total_conta").text().replace("R$", "").replace(",", "."))
+                var este_preco = parseFloat($(this).attr("data-preco"));
+                var nova_conta = parseFloat(conta_atual + este_preco).toFixed(2).replace(".", ",");
+                $("#total_conta").text("R$"+ nova_conta);
+            });
+            $("#passo3").hide();
+            $("#passo4").show();
+        });
+        $("#btn_passo4").click(function (e) {
+            $("#passo4").hide();
+            $("#cardapio_total").hide();
+            $("#passo5").show();
+        });
+        $("#btn_passo5").click(function (e) {
+            $("#passo5").hide();
+            $("#cardapio_total").show();
+            $("#passo1").show();
+        });
+    });
+</script>
+</body>
+</html>
